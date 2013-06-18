@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/javascripts/jquery.js"></script>
+    <script src="/javascripts/crz-control.js"></script>
+    <script type="text/javascript">
+        window.user = '<%= user %>';
+    </script>
+    <style>
+        input[type=button] {
+            width: 160px;
+        }
+    </style>
+</head>
+<body>
+<p>Welcome to <%= title %></p>
+
+<div id="commander">
+    <input type="text" id="command"/>
+    <input type="button" id="sendCmd" value="Command your PC now!"/>
+</div>
+<div id="controller">
+    <input type="text" id="value"/>
+    <input type="button" id="sendCtrl" value="Control your PC now!"/>
+    <input type="radio" name="ctrlType" value="volume">Volume</input>
+    <input type="radio" name="ctrlType" value="light">Light</input>
+</div>
+<div id="recv"></div>
+</body>
+</html>
