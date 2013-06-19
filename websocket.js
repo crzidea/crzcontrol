@@ -78,7 +78,7 @@ function translateMsg(event, data, srcSocket) {
         pcSocket.emit(event, data);
     } else if (srcSocket) {
         srcSocket.emit('cmdComplete', {
-            result: 'PC client is not online at the time.'
+            msg: 'PC client is not online at the time.'
         })
     }
 
