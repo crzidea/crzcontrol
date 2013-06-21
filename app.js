@@ -41,7 +41,7 @@ var server = http.createServer(app).listen(app.get('port'), function () {
 });
 
 // hello mongodb
-mongoose.connect('mongodb://localhost/crz_control', function (err) {
+mongoose.connect('mongodb://localhost/crzcontrol', function (err) {
     if (!err) {
         console.log('Connected to MongoDB');
     } else {
