@@ -16,7 +16,7 @@ exports.doLogin = function (req, res) {
             res.redirect('/');
         } else {
             // login failed
-            exports.index(req, res);
+            exports.login(req, res);
         }
     })
 }
