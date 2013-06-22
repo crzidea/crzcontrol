@@ -7,8 +7,7 @@ var express = require('express')
     , http = require('http')
     , path = require('path')
     , mongoose = require('mongoose')
-    , socketio = require('socket.io')
-    , websocket = require('./websocket');
+    , socket = require('./socket');
 
 var app = express();
 
@@ -36,12 +35,12 @@ app.post('/login', user.doLogin);
 app.get('/reg', user.reg);
 app.post('/reg', user.doReg);
 
-var server = http.createServer(app).listen(app.get('port'), function () {
-    console.log('Express server listening on port ' + app.get('port'));
+var httpServer = http.createServer(app).listen(app.get('port'), function () {
+    console.log('Server listening on port ' + app.get('port'));
 });
 
 // hello mongodb
-mongoose.connect('mongodb://localhost/crz_control', function (err) {
+mongoose.connect('mongodb://localhost/crzcontrol', function (err) {
     if (!err) {
         console.log('Connected to MongoDB');
     } else {
@@ -50,7 +49,4 @@ mongoose.connect('mongodb://localhost/crz_control', function (err) {
 });
 
 // finally socket.io
-var io = socketio.listen(server, {
-    log: false
-});
-websocket.init(io);
+socket.init(httpServer);
