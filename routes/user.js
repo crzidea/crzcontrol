@@ -16,11 +16,7 @@ exports.doLogin = function (req, res) {
             res.redirect('/');
         } else {
             // login failed
-<<<<<<< HEAD
-            exports.login(req, res);
-=======
             res.send('Login failed!');
->>>>>>> ca39fd4d9583a61c996d71eddf3eb97cccdea9dc
         }
     })
 }
