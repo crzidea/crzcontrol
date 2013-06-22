@@ -13,11 +13,11 @@ $(function () {
     });
 
     // bind enter to #command
-    $("#command").keypress(function (e) {
+    $("#command").keypress(function (event) {
         if (event.keyCode == 13) {
             event.cancelBubble = true;
             event.returnValue = false;
-            $('#sendBtn').click();
+            $('#sendCmd').click();
         }
     });
 
@@ -30,7 +30,7 @@ $(function () {
         });
     });
 
-    $("#value").keypress(function (e) {
+    $("#value").keypress(function (event) {
         if (event.keyCode == 13) {
             event.cancelBubble = true;
             event.returnValue = false;
