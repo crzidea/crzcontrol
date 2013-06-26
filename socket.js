@@ -1,5 +1,7 @@
 var sio = require('socket.io')
-    , User = require('./db').User;
+    , db = require('./db')
+    , User = db.User
+    , CmdMsg = db.CmdMsg;
 
 var server;
 var userSockets = {};
@@ -90,8 +92,14 @@ function result2Web(data) {
     translateMsg('cmdComplete', data)
 }
 function translateMsg(event, data, srcSocket) {
-    pcSocket = userSockets[data.user][data.target];
+    var pcSocket = userSockets[data.user][data.target];
     if (pcSocket && !pcSocket.disconnected) {
+        var c = {
+            msg: data,
+            sendTime: new Date()
+        };
+        var cmdMsg = new CmdMsg(c);
+        cmdMsg.save();
         pcSocket.emit(event, data);
     } else if (srcSocket) {
         srcSocket.emit('cmdComplete', {

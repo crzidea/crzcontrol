@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/node.iml" afterPath="$PROJECT_DIR$/.idea/node.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/user.js" afterPath="$PROJECT_DIR$/routes/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/crz-control.js" afterPath="$PROJECT_DIR$/public/javascripts/crz-control.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.js" afterPath="$PROJECT_DIR$/db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/login.ejs" afterPath="$PROJECT_DIR$/views/login.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/reg.ejs" afterPath="$PROJECT_DIR$/views/reg.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/socket.js" afterPath="$PROJECT_DIR$/socket.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\crzcontrol\websocket.js" afterPath="$PROJECT_DIR$/socket.js" />
     </list>
     <ignored path="node.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,16 +19,17 @@
     <file path="/app.js" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1371799438273" ignored="false" />
     <file path="/login.js" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1371180356142" ignored="false" />
     <file path="/layout.ejs" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1371177614553" ignored="false" />
-    <file path="/db.js" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1371178375026" ignored="false" />
-    <file path="/login.ejs" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1371205909067" ignored="false" />
-    <file path="/index.ejs" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1371210739163" ignored="false" />
-    <file path="/crz-control.js" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1371211057700" ignored="false" />
+    <file path="/db.js" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1372168075860" ignored="false" />
+    <file path="/login.ejs" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1372216304292" ignored="false" />
+    <file path="/index.ejs" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1372240829750" ignored="false" />
+    <file path="/crz-control.js" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1372240696514" ignored="false" />
     <file path="/websocket.js" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1371198260426" ignored="false" />
     <file path="/user.js" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1371800077640" ignored="false" />
-    <file path="/reg.ejs" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1371205943539" ignored="false" />
-    <file path="/Dummy.txt" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1371799054647" ignored="false" />
-    <file path="/socket.js" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1371802043816" ignored="false" />
+    <file path="/reg.ejs" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1372216251147" ignored="false" />
+    <file path="/Dummy.txt" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1372209871715" ignored="false" />
+    <file path="/socket.js" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1372172916978" ignored="false" />
     <file path="/package.json" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1371801559938" ignored="false" />
+    <file path="/DummyFile.xpath" changelist="d4fa2a28-205b-43ac-85dc-6a29d0d6f181" time="1372152827878" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,46 +49,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="socket.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/socket.js">
+      <file leaf-file-name="index.ejs" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="32" selection-start="196" selection-end="196" vertical-scroll-proportion="0.34941763">
+            <state line="72" column="81" selection-start="3665" selection-end="3665" vertical-scroll-proportion="0.78518516">
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crz-control.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/crz-control.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="54" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="login.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/login.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="47" selection-start="143" selection-end="143" vertical-scroll-proportion="-4.6153846">
+            <state line="8" column="61" selection-start="394" selection-end="394" vertical-scroll-proportion="-6.105263">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="reg.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/reg.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="27" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="29" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
+            <state line="11" column="74" selection-start="492" selection-end="492" vertical-scroll-proportion="-8.394737">
               <folding />
             </state>
           </provider>
@@ -110,28 +106,28 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/views/layout.ejs" />
-        <option value="$PROJECT_DIR$/db.js" />
         <option value="$PROJECT_DIR$/node_modules/websocket.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/websocket.js" />
         <option value="$PROJECT_DIR$/routes/login.js" />
         <option value="$PROJECT_DIR$/views/reg.html" />
-        <option value="$PROJECT_DIR$/views/login.ejs" />
-        <option value="$PROJECT_DIR$/views/reg.ejs" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
-        <option value="$PROJECT_DIR$/public/javascripts/crz-control.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/user.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/db.js" />
         <option value="$PROJECT_DIR$/socket.js" />
+        <option value="$PROJECT_DIR$/views/login.ejs" />
+        <option value="$PROJECT_DIR$/views/reg.ejs" />
+        <option value="$PROJECT_DIR$/public/javascripts/crz-control.js" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1874" />
-    <option name="height" value="1096" />
+    <option name="width" value="1320" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -141,12 +137,12 @@
             <id />
           </State>
           <State>
-            <id>General</id>
+            <id>HTML</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Annotator</id>
+            <id>HtmlNonExistentInternetResource</id>
           </State>
         </selected-state>
       </profile-state>
@@ -206,7 +202,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crzcontrol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crzcontrol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crzcontrol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -218,10 +260,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.externalTools" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/javascripts" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -262,6 +305,9 @@
       <method />
     </configuration>
     <configuration default="false" name="crzcontrol" type="NodeJSConfigurationType" factoryName="Node.js" singleton="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="PORT" value="80" />
+      </envs>
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
@@ -299,22 +345,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1835008" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959128" sideWeight="0.67165774" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17748241" sideWeight="0.8438003" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32834226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15619968" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -380,6 +426,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/javascripts/crz-control.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -390,9 +440,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/socket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="62" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="62" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
@@ -402,86 +450,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="255" column="37" selection-start="5653" selection-end="5653" vertical-scroll-proportion="2.4596155">
-          <folding />
-        </state>
+        <state line="255" column="37" selection-start="5653" selection-end="5653" vertical-scroll-proportion="2.4596155" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/reg.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="40" selection-start="225" selection-end="225" vertical-scroll-proportion="0.33279744" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="238" selection-end="238" vertical-scroll-proportion="0.3697749" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="38" selection-start="797" selection-end="805" vertical-scroll-proportion="-11.53125" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/crz-control.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.66079295">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="346" selection-end="346" vertical-scroll-proportion="-0.39933443">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="27" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="29" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="47" selection-start="143" selection-end="143" vertical-scroll-proportion="-4.6153846">
+        <state line="6" column="24" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/socket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="32" selection-start="196" selection-end="196" vertical-scroll-proportion="0.34941763">
+        <state line="10" column="37" selection-start="243" selection-end="243" vertical-scroll-proportion="0.58704454">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="27" selection-start="333" selection-end="333" vertical-scroll-proportion="0.8805668">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="30" selection-start="997" selection-end="997" vertical-scroll-proportion="2.2307692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="9" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.82388663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/reg.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="74" selection-start="492" selection-end="492" vertical-scroll-proportion="-8.394737">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="61" selection-start="394" selection-end="394" vertical-scroll-proportion="-6.105263">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/crz-control.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="54" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="81" selection-start="3665" selection-end="3665" vertical-scroll-proportion="0.78518516">
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

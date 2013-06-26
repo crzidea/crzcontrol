@@ -8,3 +8,10 @@ var UserSchema = new Schema({
     password: String
 });
 exports.User = mongoese.model('user', UserSchema);
+
+// cmdmsg Schema
+var CmdMsgSchema = new Schema({
+    msg: Object,
+    sendTime: Date
+});
+exports.CmdMsg = mongoese.model('cmdmsg', CmdMsgSchema);

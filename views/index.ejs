@@ -2,32 +2,80 @@
 <html>
 <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css'/>
-    <script src="/socket.io/socket.io.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel='stylesheet' href='/stylesheets/style.css'/>-->
+    <link rel='stylesheet' href='../public/bootstrap/css/bootstrap.css'/>
+    <link rel='stylesheet' href='/bootstrap/css/bootstrap.css'/>
+    <link rel='stylesheet' href='../public/bootstrap/css/bootstrap-responsive.css'/>
+    <link rel='stylesheet' href='/bootstrap/css/bootstrap-responsive.css'/>
     <script src="/javascripts/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
     <script src="/javascripts/crz-control.js"></script>
     <script type="text/javascript">
         window.user = '<%= user %>';
     </script>
-    <style>
-        input[type=button] {
-            width: 160px;
-        }
-    </style>
 </head>
 <body>
-<p>Welcome to <%= title %></p>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <h1 class="span12">Welcome to <%= title %></h1>
+    </div>
 
-<div id="commander">
-    <input type="text" id="command"/>
-    <input type="button" id="sendCmd" value="Command your PC now!"/>
+    <div id="commander" class="row-fluid">
+        <button class="btn btn-large btn-primary span3" id="sendCmd">Command your PC now!</button>
+        <input type="text" class="btn-large span9" id="command" style="min-height: 45px;"/>
+    </div>
+
+    <h2>Shortcut</h2>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <input type="button" class="btn btn-large btn-danger span3" name="shutDown" data-opt="h"
+                   value="Hibernate computer"/>
+            <input type="button" class="btn btn-large btn-danger span3" name="shutDown" data-opt="s"
+                   value="Shut down computer"/>
+            <input type="button" class="btn btn-large btn-danger span3" name="shutDown" data-opt="r"
+                   value="Restart computer"/>
+        </div>
+        <div class="row-fluid">
+            <input type="button" class="btn btn-large btn-info span3" name="ipInfo" value="Get IP information"/>
+            <input type="button" class="btn btn-large btn-info span3" name="sysver" value="Get system version"/>
+        </div>
+    </div>
+
+    <h2>Controller</h2>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <input type="button" class="btn btn-large btn-warning span3" name="brightness" value="Brightness up"
+                   data-opt="up"/>
+            <input type="button" class="btn btn-large btn-warning span3" name="brightness" value="Brightness down"
+                   data-opt="down"/>
+        </div>
+        <div class="row-fluid">
+            <input type="button" class="btn btn-large btn-info span2 controller" name="volume" value="Volume up"
+                   data-opt="up"/>
+            <input type="button" class="btn btn-large btn-info span2 controller" name="volume" value="Mute"
+                   data-opt="mute"/>
+            <input type="button" class="btn btn-large btn-info span2 controller" name="volume" value="Volume down"
+                   data-opt="down"/>
+             <input type="button" class="btn btn-large btn-success span2 controller" name="player" value="Previous music"
+                   data-opt="prev"/>
+            <input type="button" class="btn btn-large btn-success span2 controller" name="player" value="Play / Pause"
+                   data-opt="play"/>
+            <input type="button" class="btn btn-large btn-success span2 controller" name="player" value="Next Music"
+                   data-opt="next"/>
+        </div>
+        <div class="row-fluid">
+            <input type="button" class="btn btn-large btn-danger span3 controller" name="powerpoint" value="Prev PPT page"
+                   data-opt="prev"/>
+            <input type="button" class="btn btn-large btn-danger span3 controller" name="powerpoint" value="Next PPT page"
+                   data-opt="next"/>
+        </div>
+    </div>
+
+    <div id="recv" class="container-fluid"></div>
 </div>
-<div id="controller">
-    <input type="text" id="value"/>
-    <input type="button" id="sendCtrl" value="Control your PC now!"/>
-    <input type="radio" name="ctrlType" value="volume">Volume</input>
-    <input type="radio" name="ctrlType" value="light">Light</input>
-</div>
-<div id="recv"></div>
 </body>
 </html>
